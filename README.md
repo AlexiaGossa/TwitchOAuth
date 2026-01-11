@@ -1,6 +1,7 @@
 # TwitchOAuth
 
 You need an Apache HTTPD server with "AllowOverride All" on your Directory.
+
 You need a public domain with HTTPS where to put all these project files.
 
 
