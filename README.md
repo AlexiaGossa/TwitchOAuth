@@ -1,5 +1,11 @@
 # TwitchOAuth
 
+This is a very simple project to use the Twitch OAuth.
+
+
+Requirements
+======
+
 You need an Apache HTTPD server with "AllowOverride All" on your Directory.
 
 You need a public domain with HTTPS where to put all these project files.
