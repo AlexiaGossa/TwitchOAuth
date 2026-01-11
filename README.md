@@ -11,6 +11,7 @@ Part 1 - Prepare code
 Step 1
 -----------
 Create your own secret UID value.
+This secret UID will protect your domain as a personnal token.
 
 Step 2
 -----------
@@ -57,7 +58,7 @@ Copy your "Client identification" into a password manager as "CLIENT_ID".
 
 Click on "New secret".
 
-Copy your "Secret" ino a password manager as "SECRET".
+Copy your "Secret" into a password manager as "SECRET".
 
 
 Part 3 - Do OAuth
@@ -67,6 +68,14 @@ Step 1
 -----------
 Authorize your OAuth with your browser.
 > `https://twitch.mypersonnal.com/oauth-query.php?uid=[KEY_UID]&login=[YOUR_TWITCH_LOGIN]&clientid=[CLIENT_ID]&secret=[SECRET]`
+>
+> `KEY_UID` the UID you've put into `/logs/key_uid.txt`.
+>
+> `YOUR_TWITCH_LOGIN` your Twitch login used to connect to your twitch account as a streamer/broadcaster.
+>
+> `CLIENT_ID` the client identification from your application created on dev.twitch.tv
+>
+> `SECRET` the secret from your application created on dev.twitch.tv
 >
 
 Step 2
