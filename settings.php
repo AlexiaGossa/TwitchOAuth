@@ -4,7 +4,7 @@ $sFileKeyUID 				    = 	__DIR__ . '/logs/key_uid.txt';
 $sFileNameInputData 			= 	__DIR__ . '/logs/input_data.json';
 $sFileNameAuthData 				= 	__DIR__ . '/logs/auth_data.json';
 
-$redirectUri 			      	= 	"https://twitch.nemelit.com/oauth.php";
+$redirectUri 			      	= 	"https://twitch.mydomain.com/oauth.php";
 $authorizeUri			      	=   "https://id.twitch.tv/oauth2/authorize";
 $tokenUri				        =	  "https://id.twitch.tv/oauth2/token";
 
